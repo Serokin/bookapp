@@ -14,7 +14,8 @@ gem 'puma', '~> 3.7'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
 # gem 'webpacker', '>= 4.0.0.rc.3'
 # Use SCSS for stylesheets
-gem 'wdm', '>= 0.1.0'
+gem 'rb-inotify', github: 'nex3/rb-inotify', platforms: :ruby, require: false
+gem 'wdm','>= 0.1.0', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # gem 'acts_as_votable', '~> 0.12.0'
 gem 'bootstrap', '~> 4.3.1'
 gem 'bootstrap_form'
